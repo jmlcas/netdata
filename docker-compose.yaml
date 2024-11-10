@@ -1,7 +1,7 @@
 services:
 
   netdata:
-    image: netdata/netdata
+    image: netdata/netdata:latest
     container_name: netdata
     hostname: localhost  # example.com 
     ports:
